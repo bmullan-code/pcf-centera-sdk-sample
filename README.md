@@ -53,3 +53,9 @@ applications:
   env:
     LD_LIBARY_PATH: /home/vcap/app/BOOT-INF/classes/Centera_SDK/lib
 ```
+
+8. Push to PCF/TAS
+
+```
+cf push
+```
